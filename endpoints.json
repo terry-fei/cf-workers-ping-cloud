@@ -1,0 +1,803 @@
+{
+  "aliyun:global": {
+    "url": "//cloud.feitsui.com/ping"
+  },
+  "aliyun:intl": {
+    "url": "//tb.cloudping.cloud/cloudping.cloud"
+  },
+  "upyun": {
+    "url": "//mars.feitsui.com/ping.html"
+  },
+  "qiniu": {
+    "url": "http://qn.feitsui.com/ping.html"
+  },
+  "tencent:global": {
+    "url": "http://tx.feitsui.com/ping.html"
+  },
+  "tencent:intl": {
+    "url": "//tx.cloudping.cloud/cloudping.cloud"
+  },
+  "huawei:global": {
+    "url": "http://hw.feitsui.com/cloudping.cloud"
+  },
+  "huawei:intl": {
+    "url": "http://hw.cloudping.cloud/cloudping.cloud"
+  },
+  "bce:cdn": {
+    "url": "//feitsui-beijing.cdn.bcebos.com/ping.html"
+  },
+  "azure:akm": {
+    "url": "//akm.feitsui.com/cloudping.cloud"
+  },
+  "azure:ms": {
+    "url": "//ms.feitsui.com/cloudping.cloud"
+  },
+  "azure:vrz": {
+    "url": "//vrz.feitsui.com/cloudping.cloud"
+  },
+  "aws:cloudfront": {
+    "url": "//cf.feitsui.com/cloudping.cloud"
+  },
+  "cdn:jsdelivr": {
+    "url": "https://cdn.jsdelivr.net/gh/ft6/feitsui.com/ping.txt"
+  },
+  "aws:cn-north-1": {
+    "url": "//ec2.cn-north-1.amazonaws.com.cn/ping",
+    "fixed": true
+  },
+  "aws:cn-northwest-1": {
+    "url": "//ec2.cn-northwest-1.amazonaws.com.cn/ping",
+    "fixed": true
+  },
+  "azure:southeast-asia": {
+    "url": "//feitsui-s3.azurewebsites.net/cloudping.cloud"
+  },
+  "aliyun:cn-beijing": {
+    "url": "//feitsui-bjs.oss-cn-beijing.aliyuncs.com/ping.html"
+  },
+  "aliyun:cn-guangzhou": {
+    "url": "//feitsui-can.oss-cn-guangzhou.aliyuncs.com/ping.html"
+  },
+  "aliyun:cn-hangzhou": {
+    "url": "//feitsui-hgh.oss-cn-hangzhou.aliyuncs.com/ping.html"
+  },
+  "aliyun:cn-heyuan": {
+    "url": "//feitsui-heyuan.oss-cn-heyuan.aliyuncs.com/ping.html"
+  },
+  "aliyun:cn-huhehaote": {
+    "url": "//feitsui-het.oss-cn-huhehaote.aliyuncs.com/ping.html"
+  },
+  "aliyun:cn-qingdao": {
+    "url": "//feitsui-tao.oss-cn-qingdao.aliyuncs.com/ping.html"
+  },
+  "aliyun:cn-shanghai": {
+    "url": "//feitsui-sha.oss-cn-shanghai.aliyuncs.com/ping.html"
+  },
+  "aliyun:cn-shenzhen": {
+    "url": "//feitsui-szx.oss-cn-shenzhen.aliyuncs.com/ping.html"
+  },
+  "aliyun:cn-wulanchabu": {
+    "url": "//feitsui-ucb.oss-cn-wulanchabu.aliyuncs.com/ping.html"
+  },
+  "aliyun:cn-zhangjiakou": {
+    "url": "//feitsui-zqz.oss-cn-zhangjiakou.aliyuncs.com/ping.html"
+  },
+  "aliyun:cn-chengdu": {
+    "url": "//feitsui-ctu.oss-cn-chengdu.aliyuncs.com/ping.html"
+  },
+  "aliyun:cn-hongkong": {
+    "url": "//feitsui-hkg.oss-cn-hongkong.aliyuncs.com/ping.html"
+  },
+  "aliyun:ap-northeast-1": {
+    "url": "//feitsui-nrt.oss-ap-northeast-1.aliyuncs.com/ping.html"
+  },
+  "aliyun:ap-south-1": {
+    "url": "//feitsui-bom.oss-ap-south-1.aliyuncs.com/ping.html"
+  },
+  "aliyun:ap-southeast-1": {
+    "url": "//feitsui-sin.oss-ap-southeast-1.aliyuncs.com/ping.html"
+  },
+  "aliyun:ap-southeast-2": {
+    "url": "//feitsui-syd.oss-ap-southeast-2.aliyuncs.com/ping.html"
+  },
+  "aliyun:ap-southeast-3": {
+    "url": "//feitsui-kul.oss-ap-southeast-3.aliyuncs.com/ping.html"
+  },
+  "aliyun:ap-southeast-5": {
+    "url": "//feitsui-cgk.oss-ap-southeast-5.aliyuncs.com/ping.html"
+  },
+  "aliyun:ap-southeast-6": {
+    "url": "//feitsui-mnl.oss-ap-southeast-6.aliyuncs.com/ping.html"
+  },
+  "aliyun:eu-central-1": {
+    "url": "//feitsui-fra.oss-eu-central-1.aliyuncs.com/ping.html"
+  },
+  "aliyun:eu-west-1": {
+    "url": "//feitsui-lhr.oss-eu-west-1.aliyuncs.com/ping.html"
+  },
+  "aliyun:me-east-1": {
+    "url": "//feitsui-dxb.oss-me-east-1.aliyuncs.com/ping.html"
+  },
+  "aliyun:us-east-1": {
+    "url": "//feitsui-virginia.oss-us-east-1.aliyuncs.com/ping.html"
+  },
+  "aliyun:us-west-1": {
+    "url": "//feitsui-silicon-valley.oss-us-west-1.aliyuncs.com/ping.html"
+  },
+  "bce:bd": {
+    "url": "//feitsui-baoding.bd.bcebos.com/ping.html"
+  },
+  "bce:bj": {
+    "url": "//feitsui-beijing.bj.bcebos.com/ping.html"
+  },
+  "bce:gz": {
+    "url": "//feitsui-guangzhou.gz.bcebos.com/ping.html"
+  },
+  "bce:fsh": {
+    "url": "//feitsui-shanghai.fsh.bcebos.com/ping.html"
+  },
+  "bce:su": {
+    "url": "//feitsui-suzhou.su.bcebos.com/ping.html"
+  },
+  "bce:fwh": {
+    "url": "//feitsui-wuhan.fwh.bcebos.com/ping.html"
+  },
+  "bce:hkg": {
+    "url": "//feitsui-hkg.hkg.bcebos.com/ping.html"
+  },
+  "bce:sin": {
+    "url": "//feitsui-sin.sin.bcebos.com/ping.html"
+  },
+  "huawei:cn-north-1": {
+    "url": "//feitsui-pek1.obs.cn-north-1.myhuaweicloud.com/ping.html"
+  },
+  "huawei:cn-north-4": {
+    "url": "//feitsui-pek4.obs.cn-north-4.myhuaweicloud.com/ping.html"
+  },
+  "huawei:cn-north-9": {
+    "url": "//feitsui-ucb.obs.cn-north-9.myhuaweicloud.com/ping.html"
+  },
+  "huawei:cn-south-1": {
+    "url": "//feitsui-can.obs.cn-south-1.myhuaweicloud.com/ping.html"
+  },
+  "huawei:cn-southwest-2": {
+    "url": "//feitsui-kwe1.obs.cn-southwest-2.myhuaweicloud.com/ping.html"
+  },
+  "huawei:cn-east-2": {
+    "url": "//feitsui-sha2.obs.cn-east-2.myhuaweicloud.com/ping.html"
+  },
+  "huawei:cn-east-3": {
+    "url": "//feitsui-sha1.obs.cn-east-3.myhuaweicloud.com/ping.html"
+  },
+  "huawei:ap-southeast-1": {
+    "url": "//feitsui-hkg.obs.ap-southeast-1.myhuaweicloud.com/ping.html"
+  },
+  "huawei:ap-southeast-2": {
+    "url": "//feitsui-bkk.obs.ap-southeast-2.myhuaweicloud.com/ping.html"
+  },
+  "huawei:ap-southeast-3": {
+    "url": "//feitsui-sin.obs.ap-southeast-3.myhuaweicloud.com/ping.html"
+  },
+  "huawei:na-mexico-1": {
+    "url": "//feitsui-mex1.obs.na-mexico-1.myhuaweicloud.com/ping.html"
+  },
+  "huawei:la-south-2": {
+    "url": "//feitsui-scl.obs.la-south-2.myhuaweicloud.com/ping.html"
+  },
+  "huawei:sa-brazil-1": {
+    "url": "//feitsui-gru1.obs.sa-brazil-1.myhuaweicloud.com/ping.html"
+  },
+  "huawei:af-south-1": {
+    "url": "//feitsui-jnb.obs.af-south-1.myhuaweicloud.com/ping.html"
+  },
+  "tencent:ap-beijing": {
+    "url": "//feitsui-bjs-1251417183.cos.ap-beijing.myqcloud.com/ping.html"
+  },
+  "tencent:ap-chengdu": {
+    "url": "//feitsui-ctu-1251417183.cos.ap-chengdu.myqcloud.com/ping.html"
+  },
+  "tencent:ap-chongqing": {
+    "url": "//feitsui-ckg-1251417183.cos.ap-chongqing.myqcloud.com/ping.html"
+  },
+  "tencent:ap-guangzhou": {
+    "url": "//feitsui-can-1251417183.cos.ap-guangzhou.myqcloud.com/ping.html"
+  },
+  "tencent:ap-nanjing": {
+    "url": "//feitsui-nkg-1251417183.cos.ap-nanjing.myqcloud.com/ping.html"
+  },
+  "tencent:ap-shanghai": {
+    "url": "//feitsui-sha-1251417183.cos.ap-shanghai.myqcloud.com/ping.html"
+  },
+  "tencent:ap-beijing-fsi": {
+    "url": "//feitsui-bjs-fsi-1251417183.cos.ap-beijing-fsi.myqcloud.com/ping.html"
+  },
+  "tencent:ap-shanghai-fsi": {
+    "url": "//feitsui-sha-fsi-1251417183.cos.ap-shanghai-fsi.myqcloud.com/ping.html"
+  },
+  "tencent:ap-shenzhen-fsi": {
+    "url": "//feitsui-szx-fsi-1251417183.cos.ap-shenzhen-fsi.myqcloud.com/ping.html"
+  },
+  "tencent:ap-hongkong": {
+    "url": "//feitsui-hkg-1251417183.cos.ap-hongkong.myqcloud.com/ping.html"
+  },
+  "tencent:ap-bangkok": {
+    "url": "//feitsui-bkk-1251417183.cos.ap-bangkok.myqcloud.com/ping.html"
+  },
+  "tencent:ap-jakarta": {
+    "url": "//feitsui-cgk-1251417183.cos.ap-jakarta.myqcloud.com/ping.html"
+  },
+  "tencent:ap-mumbai": {
+    "url": "//feitsui-bom-1251417183.cos.ap-mumbai.myqcloud.com/ping.html"
+  },
+  "tencent:ap-seoul": {
+    "url": "//feitsui-icn-1251417183.cos.ap-seoul.myqcloud.com/ping.html"
+  },
+  "tencent:ap-singapore": {
+    "url": "//feitsui-sin-1251417183.cos.ap-singapore.myqcloud.com/ping.html"
+  },
+  "tencent:ap-tokyo": {
+    "url": "//feitsui-nrt-1251417183.cos.ap-tokyo.myqcloud.com/ping.html"
+  },
+  "tencent:eu-frankfurt": {
+    "url": "//feitsui-fra-1251417183.cos.eu-frankfurt.myqcloud.com/ping.html"
+  },
+  "tencent:eu-moscow": {
+    "url": "//feitsui-mow-1251417183.cos.eu-moscow.myqcloud.com/ping.html"
+  },
+  "tencent:na-ashburn": {
+    "url": "//feitsui-iad-1251417183.cos.na-ashburn.myqcloud.com/ping.html"
+  },
+  "tencent:na-siliconvalley": {
+    "url": "//feitsui-siliconvalley-1251417183.cos.na-siliconvalley.myqcloud.com/ping.html"
+  },
+  "tencent:na-toronto": {
+    "url": "//feitsui-yto-1251417183.cos.na-toronto.myqcloud.com/ping.html"
+  },
+  "ucloud:cn-bj": {
+    "url": "//feitsui-bjs.cn-bj.ufileos.com/ping.html"
+  },
+  "ucloud:cn-gd": {
+    "url": "//feitsui-can.cn-gd.ufileos.com/ping.html"
+  },
+  "ucloud:cn-sh2": {
+    "url": "//feitsui-sha2.cn-sh2.ufileos.com/ping.html"
+  },
+  "ucloud:hk": {
+    "url": "//feitsui-hk.hk.ufileos.com/ping.html"
+  },
+  "ucloud:tw-tp": {
+    "url": "//feitsui-tpe.tw-tp.ufileos.com/ping.html"
+  },
+  "ucloud:afr-nigeria": {
+    "url": "//feitsui-los.afr-nigeria.ufileos.com/ping.html"
+  },
+  "ucloud:bra-saopaulo": {
+    "url": "//feitsui-gru.bra-saopaulo.ufileos.com/ping.html"
+  },
+  "ucloud:ge-fra": {
+    "url": "//feitsui-fra.ge-fra.ufileos.com/ping.html"
+  },
+  "ucloud:idn-jakarta": {
+    "url": "//feitsui-cgk.idn-jakarta.ufileos.com/ping.html"
+  },
+  "ucloud:ind-mumbai": {
+    "url": "//feitsui-bom.ind-mumbai.ufileos.com/ping.html"
+  },
+  "ucloud:kr-seoul": {
+    "url": "//feitsui-icn.kr-seoul.ufileos.com/ping.html"
+  },
+  "ucloud:sg": {
+    "url": "//feitsui-sg.sg.ufileos.com/ping.html"
+  },
+  "ucloud:uae-dubai": {
+    "url": "//feitsui-dxb.uae-dubai.ufileos.com/ping.html"
+  },
+  "ucloud:us-ca": {
+    "url": "//feitsui-lax.us-ca.ufileos.com/ping.html"
+  },
+  "ucloud:us-ws": {
+    "url": "//feitsui-us-ws.us-ws.ufileos.com/ping.html"
+  },
+  "ucloud:vn-sng": {
+    "url": "//feitsui-sgn.vn-sng.ufileos.com/ping.html"
+  },
+  "aws:af-south-1": {
+    "url": "//ec2.af-south-1.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:ap-east-1": {
+    "url": "//ec2.ap-east-1.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:ap-northeast-1": {
+    "url": "//ec2.ap-northeast-1.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:ap-northeast-2": {
+    "url": "//ec2.ap-northeast-2.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:ap-northeast-3": {
+    "url": "//ec2.ap-northeast-3.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:ap-southeast-1": {
+    "url": "//ec2.ap-southeast-1.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:ap-southeast-2": {
+    "url": "//ec2.ap-southeast-2.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:ap-southeast-3": {
+    "url": "//ec2.ap-southeast-3.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:ap-southeast-4": {
+    "url": "//ec2.ap-southeast-4.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:ap-south-1": {
+    "url": "//ec2.ap-south-1.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:ap-south-2": {
+    "url": "//ec2.ap-south-2.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:ca-central-1": {
+    "url": "//ec2.ca-central-1.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:eu-central-1": {
+    "url": "//ec2.eu-central-1.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:eu-central-2": {
+    "url": "//ec2.eu-central-2.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:eu-north-1": {
+    "url": "//ec2.eu-north-1.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:eu-south-1": {
+    "url": "//ec2.eu-south-1.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:eu-south-2": {
+    "url": "//ec2.eu-south-2.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:eu-west-1": {
+    "url": "//ec2.eu-west-1.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:eu-west-2": {
+    "url": "//ec2.eu-west-2.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:eu-west-3": {
+    "url": "//ec2.eu-west-3.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:me-central-1": {
+    "url": "//ec2.me-central-1.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:me-south-1": {
+    "url": "//ec2.me-south-1.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:sa-east-1": {
+    "url": "//ec2.sa-east-1.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:us-east-1": {
+    "url": "//ec2.us-east-1.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:us-east-2": {
+    "url": "//ec2.us-east-2.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:us-west-1": {
+    "url": "//ec2.us-west-1.amazonaws.com/ping",
+    "fixed": true
+  },
+  "aws:us-west-2": {
+    "url": "//ec2.us-west-2.amazonaws.com/ping",
+    "fixed": true
+  },
+  "lightsail:ap-northeast-1": {
+    "url": "//lightsail.ap-northeast-1.amazonaws.com/ping",
+    "fixed": true
+  },
+  "lightsail:ap-northeast-2": {
+    "url": "//lightsail.ap-northeast-2.amazonaws.com/ping",
+    "fixed": true
+  },
+  "lightsail:ap-southeast-1": {
+    "url": "//lightsail.ap-southeast-1.amazonaws.com/ping",
+    "fixed": true
+  },
+  "lightsail:ap-southeast-2": {
+    "url": "//lightsail.ap-southeast-2.amazonaws.com/ping",
+    "fixed": true
+  },
+  "lightsail:ap-south-1": {
+    "url": "//lightsail.ap-south-1.amazonaws.com/ping",
+    "fixed": true
+  },
+  "lightsail:ca-central-1": {
+    "url": "//lightsail.ca-central-1.amazonaws.com/ping",
+    "fixed": true
+  },
+  "lightsail:eu-central-1": {
+    "url": "//lightsail.eu-central-1.amazonaws.com/ping",
+    "fixed": true
+  },
+  "lightsail:eu-west-1": {
+    "url": "//lightsail.eu-west-1.amazonaws.com/ping",
+    "fixed": true
+  },
+  "lightsail:eu-west-2": {
+    "url": "//lightsail.eu-west-2.amazonaws.com/ping",
+    "fixed": true
+  },
+  "lightsail:eu-west-3": {
+    "url": "//lightsail.eu-west-3.amazonaws.com/ping",
+    "fixed": true
+  },
+  "lightsail:us-east-1": {
+    "url": "//lightsail.us-east-1.amazonaws.com/ping",
+    "fixed": true
+  },
+  "lightsail:us-east-2": {
+    "url": "//lightsail.us-east-2.amazonaws.com/ping",
+    "fixed": true
+  },
+  "lightsail:us-west-2": {
+    "url": "//lightsail.us-west-2.amazonaws.com/ping",
+    "fixed": true
+  },
+  "azure:east-asia": {
+    "url": "//speedtestea.blob.core.windows.net/cb.json"
+  },
+  "azure:japan-east": {
+    "url": "//speedtestjpe.blob.core.windows.net/cb.json"
+  },
+  "azure:japan-west": {
+    "url": "//speedtestjpw.blob.core.windows.net/cb.json"
+  },
+  "azure:korea-central": {
+    "url": "//speedtestkoreacentral.blob.core.windows.net/cb.json"
+  },
+  "azure:korea-south": {
+    "url": "//speedtestkoreasouth.blob.core.windows.net/cb.json"
+  },
+  "azure:australia-east": {
+    "url": "//speedtestoze.blob.core.windows.net/cb.json"
+  },
+  "azure:australia-southeast": {
+    "url": "//speedtestozse.blob.core.windows.net/cb.json"
+  },
+  "azure:central-india": {
+    "url": "//speedtestcentralindia.blob.core.windows.net/cb.json"
+  },
+  "azure:south-india": {
+    "url": "//speedtesteastindia.blob.core.windows.net/cb.json"
+  },
+  "azure:west-india": {
+    "url": "//speedtestwestindia.blob.core.windows.net/cb.json"
+  },
+  "azure:north-europe": {
+    "url": "//speedtestne.blob.core.windows.net/cb.json"
+  },
+  "azure:west-europe": {
+    "url": "//speedtestwe.blob.core.windows.net/cb.json"
+  },
+  "azure:france-central": {
+    "url": "//speedtestfrc.blob.core.windows.net/cb.json"
+  },
+  "azure:france-south": {
+    "url": "//speedtestfrs.blob.core.windows.net/cb.json"
+  },
+  "azure:uk-south": {
+    "url": "//speedtestuks.blob.core.windows.net/cb.json"
+  },
+  "azure:uk-west": {
+    "url": "//speedtestukw.blob.core.windows.net/cb.json"
+  },
+  "azure:west-us": {
+    "url": "//speedtestwus.blob.core.windows.net/cb.json"
+  },
+  "azure:west-us-2": {
+    "url": "//speedtestwestus2.blob.core.windows.net/cb.json"
+  },
+  "azure:west-central-us": {
+    "url": "//speedtestwestcentralus.blob.core.windows.net/cb.json"
+  },
+  "azure:south-central-us": {
+    "url": "//speedtestscus.blob.core.windows.net/cb.json"
+  },
+  "azure:central-us": {
+    "url": "//speedtestcus.blob.core.windows.net/cb.json"
+  },
+  "azure:north-central-us": {
+    "url": "//speedtestnsus.blob.core.windows.net/cb.json"
+  },
+  "azure:east-us": {
+    "url": "//speedtesteus.blob.core.windows.net/cb.json"
+  },
+  "azure:east-us-2": {
+    "url": "//speedtesteus2.blob.core.windows.net/cb.json"
+  },
+  "azure:canada-central": {
+    "url": "//speedtestcac.blob.core.windows.net/cb.json"
+  },
+  "azure:canada-east": {
+    "url": "//speedtestcae.blob.core.windows.net/cb.json"
+  },
+  "azure:uae-north": {
+    "url": "//speedtestuaen.blob.core.windows.net/cb.json"
+  },
+  "azure:south-africa-north": {
+    "url": "//speedtestsan.blob.core.windows.net/cb.json"
+  },
+  "azure:brazil-south": {
+    "url": "//speedtestbs3.blob.core.windows.net/cb.json"
+  },
+  "azure:germany-north": {
+    "url": "//speedtestden.blob.core.windows.net/cb.json"
+  },
+  "azure:germany-west-central": {
+    "url": "//speedtestgwc.blob.core.windows.net/cb.json"
+  },
+  "azure:australia-central": {
+    "url": "//feitsuiaucentral.blob.core.windows.net/cb.json"
+  },
+  "azure:switzerland-north": {
+    "url": "//speedtestchn.blob.core.windows.net/cb.json"
+  },
+  "azure:switzerland-west": {
+    "url": "//speedtestchw.blob.core.windows.net/cb.json"
+  },
+  "azure:norway-east": {
+    "url": "//speedtestnea.blob.core.windows.net/cb.json"
+  },
+  "azure:norway-west": {
+    "url": "//speedtestnow.blob.core.windows.net/cb.json"
+  },
+  "digitalocean:nyc1": {
+    "url": "http://speedtest-nyc1.digitalocean.com/test_checksums.txt"
+  },
+  "digitalocean:nyc2": {
+    "url": "http://speedtest-nyc2.digitalocean.com/test_checksums.txt"
+  },
+  "digitalocean:nyc3": {
+    "url": "http://speedtest-nyc3.digitalocean.com/test_checksums.txt"
+  },
+  "digitalocean:ams2": {
+    "url": "http://speedtest-ams2.digitalocean.com/test_checksums.txt"
+  },
+  "digitalocean:ams3": {
+    "url": "http://speedtest-ams3.digitalocean.com/test_checksums.txt"
+  },
+  "digitalocean:sfo1": {
+    "url": "http://speedtest-sfo1.digitalocean.com/test_checksums.txt"
+  },
+  "digitalocean:sfo2": {
+    "url": "http://speedtest-sfo2.digitalocean.com/test_checksums.txt"
+  },
+  "digitalocean:sfo3": {
+    "url": "http://speedtest-sfo3.digitalocean.com/test_checksums.txt"
+  },
+  "digitalocean:sgp1": {
+    "url": "http://speedtest-sgp1.digitalocean.com/test_checksums.txt"
+  },
+  "digitalocean:lon1": {
+    "url": "http://speedtest-lon1.digitalocean.com/test_checksums.txt"
+  },
+  "digitalocean:fra1": {
+    "url": "http://speedtest-fra1.digitalocean.com/test_checksums.txt"
+  },
+  "digitalocean:tor1": {
+    "url": "http://speedtest-tor1.digitalocean.com/test_checksums.txt"
+  },
+  "digitalocean:blr1": {
+    "url": "http://speedtest-blr1.digitalocean.com/test_checksums.txt"
+  },
+  "gcp:asia-east1": {
+    "url": "//asia-east1-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:asia-east2": {
+    "url": "//asia-east2-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:asia-northeast1": {
+    "url": "//asia-northeast1-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:asia-northeast2": {
+    "url": "//asia-northeast2-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:asia-northeast3": {
+    "url": "//asia-northeast3-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:asia-south1": {
+    "url": "//asia-south1-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:asia-southeast1": {
+    "url": "//asia-southeast1-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:asia-southeast2": {
+    "url": "//asia-southeast2-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:australia-southeast1": {
+    "url": "//australia-southeast1-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:europe-north1": {
+    "url": "//europe-north1-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:europe-west1": {
+    "url": "//europe-west1-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:europe-west2": {
+    "url": "//europe-west2-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:europe-west3": {
+    "url": "//europe-west3-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:europe-west4": {
+    "url": "//europe-west4-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:europe-west6": {
+    "url": "//europe-west6-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:global": {
+    "url": "//global-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:northamerica-northeast1": {
+    "url": "//northamerica-northeast1-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:southamerica-east1": {
+    "url": "//southamerica-east1-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:us-central1": {
+    "url": "//us-central1-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:us-east1": {
+    "url": "//us-east1-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:us-east4": {
+    "url": "//us-east4-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:us-west1": {
+    "url": "//us-west1-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:us-west2": {
+    "url": "//us-west2-a-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:us-west3": {
+    "url": "//us-west3-gce.cloudharmony.net/probe/ping.js"
+  },
+  "gcp:us-west4": {
+    "url": "//us-west4-gce.cloudharmony.net/probe/ping.js"
+  },
+  "linode:newark": {
+    "url": "http://speedtest.newark.linode.com/empty.php"
+  },
+  "linode:atlanta": {
+    "url": "http://speedtest.atlanta.linode.com/empty.php"
+  },
+  "linode:dallas": {
+    "url": "http://speedtest.dallas.linode.com/empty.php"
+  },
+  "linode:fremont": {
+    "url": "http://speedtest.fremont.linode.com/empty.php"
+  },
+  "linode:toronto1": {
+    "url": "http://speedtest.toronto1.linode.com/empty.php"
+  },
+  "linode:frankfurt": {
+    "url": "http://speedtest.frankfurt.linode.com/empty.php"
+  },
+  "linode:london": {
+    "url": "http://speedtest.london.linode.com/empty.php"
+  },
+  "linode:singapore": {
+    "url": "http://speedtest.singapore.linode.com/empty.php"
+  },
+  "linode:tokyo2": {
+    "url": "http://speedtest.tokyo2.linode.com/empty.php"
+  },
+  "linode:mumbai1": {
+    "url": "http://speedtest.mumbai1.linode.com/empty.php"
+  },
+  "linode:syd1": {
+    "url": "http://speedtest.syd1.linode.com/empty.php"
+  },
+  "oracle:ap-tokyo-1": {
+    "url": "https://objectstorage.ap-tokyo-1.oraclecloud.com/n/nrxhlhablb3f/b/feitsui.com/o/ping.html"
+  },
+  "oracle:ap-seoul-1": {
+    "url": "https://objectstorage.ap-seoul-1.oraclecloud.com/n/nrxhlhablb3f/b/feitsui.com/o/ping.html"
+  },
+  "oracle:ap-sydney-1": {
+    "url": "https://objectstorage.ap-sydney-1.oraclecloud.com/n/nrxhlhablb3f/b/feitsui.com/o/ping.html"
+  },
+  "oracle:ap-mumbai-1": {
+    "url": "https://objectstorage.ap-mumbai-1.oraclecloud.com/n/nrxhlhablb3f/b/feitsui.com/o/ping.html"
+  },
+  "oracle:us-phoenix-1": {
+    "url": "https://objectstorage.us-phoenix-1.oraclecloud.com/n/nrxhlhablb3f/b/feitsui.com/o/ping.html"
+  },
+  "oracle:us-ashburn-1": {
+    "url": "https://objectstorage.us-ashburn-1.oraclecloud.com/n/nrxhlhablb3f/b/feitsui.com/o/ping.html"
+  },
+  "oracle:ca-toronto-1": {
+    "url": "https://objectstorage.ca-toronto-1.oraclecloud.com/n/nrxhlhablb3f/b/feitsui.com/o/ping.html"
+  },
+  "oracle:uk-london-1": {
+    "url": "https://objectstorage.uk-london-1.oraclecloud.com/n/nrxhlhablb3f/b/feitsui.com/o/ping.html"
+  },
+  "oracle:eu-frankfurt-1": {
+    "url": "https://objectstorage.eu-frankfurt-1.oraclecloud.com/n/nrxhlhablb3f/b/feitsui.com/o/ping.html"
+  },
+  "oracle:eu-zurich-1": {
+    "url": "https://objectstorage.eu-zurich-1.oraclecloud.com/n/nrxhlhablb3f/b/feitsui.com/o/ping.html"
+  },
+  "oracle:sa-saopaulo-1": {
+    "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/nrxhlhablb3f/b/feitsui.com/o/ping.html"
+  },
+  "vultr:syd-au": {
+    "url": "//syd-au-ping.vultr.com/robots.txt"
+  },
+  "vultr:tor-ca": {
+    "url": "//tor-ca-ping.vultr.com/robots.txt"
+  },
+  "vultr:fra-de": {
+    "url": "//fra-de-ping.vultr.com/robots.txt"
+  },
+  "vultr:par-fr": {
+    "url": "//par-fr-ping.vultr.com/robots.txt"
+  },
+  "vultr:lon-gb": {
+    "url": "//lon-gb-ping.vultr.com/robots.txt"
+  },
+  "vultr:hnd-jp": {
+    "url": "//hnd-jp-ping.vultr.com/robots.txt"
+  },
+  "vultr:sel-kor": {
+    "url": "//sel-kor-ping.vultr.com/robots.txt"
+  },
+  "vultr:ams-nl": {
+    "url": "//ams-nl-ping.vultr.com/robots.txt"
+  },
+  "vultr:sgp": {
+    "url": "//sgp-ping.vultr.com/robots.txt"
+  },
+  "vultr:lax-ca-us": {
+    "url": "//lax-ca-us-ping.vultr.com/robots.txt"
+  },
+  "vultr:sjo-ca-us": {
+    "url": "//sjo-ca-us-ping.vultr.com/robots.txt"
+  },
+  "vultr:fl-us": {
+    "url": "//fl-us-ping.vultr.com/robots.txt"
+  },
+  "vultr:ga-us": {
+    "url": "//ga-us-ping.vultr.com/robots.txt"
+  },
+  "vultr:il-us": {
+    "url": "//il-us-ping.vultr.com/robots.txt"
+  },
+  "vultr:nj-us": {
+    "url": "//nj-us-ping.vultr.com/robots.txt"
+  },
+  "vultr:tx-us": {
+    "url": "//tx-us-ping.vultr.com/robots.txt"
+  },
+  "vultr:wa-us": {
+    "url": "//wa-us-ping.vultr.com/robots.txt"
+  }
+}

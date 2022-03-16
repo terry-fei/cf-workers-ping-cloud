@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ws echo</title>
+  </head>
+  <body>
+    <script>
+      // const ws = new WebSocket("wss://ws.postman-echo.com/raw");
+      // const ws = new WebSocket("wss://cf-workers-ws.i5330.workers.dev");
+      const ws = new WebSocket("ws://localhost:8787");
+      ws.onopen = function () {
+        console.log("connected");
+
+        setInterval(() => {
+          ws.send("ping");
+        }, 3000);
+      };
+
+      ws.onmessage = function (event) {
+        console.log(event.data);
+      };
+
+      ws.onerror = function (error) {
+        console.log("WebSocket error: " + error);
+      };
+
+      ws.onclose = function () {
+        console.log("disconnected!");
+      };
+    </script>
+  </body>
+</html>
